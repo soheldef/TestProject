@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="com.seleniumautomationproject" verbose="0" preserve-order="true">
+	
+	<!-- 	
+	<packages>
+		<package name="com.seleniumautomationproject.test" />
+	</packages>
+	 -->
+	
+	<test name="test">
+		<classes>
+			<class name="com.adfenix.tests.LoginPage">
+				<methods>
+					<include name="testone"/>		
+					<include name="testtwo"/>	
+					<include name="testthree"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="test1">
+		<classes>
+			<class name="com.adfenix.tests.ListingPage">
+				<methods>
+					<include name="clicklisting"/>		
+					<include name="SearchPage"/>	
+					<include name="search"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	 
+</suite>
